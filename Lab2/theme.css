@@ -15,7 +15,9 @@
     margin-left: 10px;
     margin-bottom: 20px;
     margin-right: 10px;
-    
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
   }
   .UserCol{
     display: flex;
