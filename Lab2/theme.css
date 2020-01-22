@@ -1,0 +1,63 @@
+  .TopBar {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 400px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  div.Title {
+    margin-left: 10px;
+  }
+  input.search{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+  }
+  .UserCol{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 350px;
+    margin: 0 auto;
+    flex-direction: row; 
+    border-top: none;
+    transition: all 1s ease;
+  }
+  .Picture{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+  }
+  img{
+    border-radius: 10%;
+  }
+  .User{
+      width: inherit;
+      padding: 5px;
+  }
+  .Name{
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    font-size: 1em;
+  }
+  .Info{
+    position: relative;
+    left: 10px;
+    font-size: .85em;    
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+      margin-bottom: -10px;
+  }
+  .UserCol:hover{
+    background-color: lightgray;
+    transition: 0.8s;
+  }
